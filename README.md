@@ -1,2 +1,2 @@
-# Academics UG 
--This repository is created showcasing academic projects .
+# Academics PG
+-This repository have academic projects of post graduation.

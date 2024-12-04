@@ -1,2 +1,2 @@
 # Academics PG
--This repository have academic projects of post graduation.
+-This repository includes academic projects for post-graduation

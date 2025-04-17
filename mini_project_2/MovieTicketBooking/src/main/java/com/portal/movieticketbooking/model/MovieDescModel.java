@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "movie_desc_mstr")
-public class MovieDescModel {
+public class MovieDescModel{
 	@Id
 	@Column(name = "Id", updatable = false, nullable = false)
 	private Long id;

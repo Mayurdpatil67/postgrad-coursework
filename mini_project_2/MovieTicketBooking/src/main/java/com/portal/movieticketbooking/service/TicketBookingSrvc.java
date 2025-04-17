@@ -5,7 +5,7 @@ import com.portal.movieticketbooking.model.MovieDescModel;
 import com.portal.movieticketbooking.model.SeatDtlsModel;
 import com.portal.movieticketbooking.pojo.Savepojo;
 
-public interface TicketBookingSrvc {
+public interface TicketBookingSrvc{
 	public List<String> fetchactivemovie();
 	public List<String> fetchtheatres(String moviename,String date,String time);
 	public List<SeatDtlsModel> fetchseatdtls(MovieDescModel moviedtls);

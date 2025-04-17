@@ -1,6 +1,6 @@
 package com.portal.movieticketbooking.pojo;
 
-public class MovieInfoPojo {
+public class MovieInfoPojo{
 	String moviename;
 	String date;
 	String time;

@@ -14,8 +14,7 @@ import com.portal.movieticketbooking.model.MovieDescModel;
 
 
 @Repository
-public interface MovieDescRepository extends JpaRepository<MovieDescModel,Long>
-{	
+public interface MovieDescRepository extends JpaRepository<MovieDescModel,Long>{	
 	@Query(value = "select distinct Moviename from movie_desc_mstr where Status='Y'", nativeQuery = true) 
 	List<String> fetchmovies();
 	

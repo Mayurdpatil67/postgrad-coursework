@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "sch_mstr")
-public class SchModel {
+public class SchModel{
 	@Id
 	@Column(name = "id")
 	private Long id;

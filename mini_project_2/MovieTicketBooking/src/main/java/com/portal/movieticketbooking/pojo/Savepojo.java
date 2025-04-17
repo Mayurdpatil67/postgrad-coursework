@@ -2,7 +2,7 @@ package com.portal.movieticketbooking.pojo;
 
 import java.util.List;
 
-public class Savepojo {
+public class Savepojo{
 	List<Integer> seats;
 	Long movieid;
 	

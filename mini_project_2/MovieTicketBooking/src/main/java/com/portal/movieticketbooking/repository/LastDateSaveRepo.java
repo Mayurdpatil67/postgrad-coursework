@@ -7,6 +7,6 @@ import com.portal.movieticketbooking.model.MovieDescModel;
 import com.portal.movieticketbooking.model.SchModel;
 
 @Repository
-public interface LastDateSaveRepo extends JpaRepository<SchModel,Long> {
+ public interface LastDateSaveRepo extends JpaRepository<SchModel,Long> {
 
 }

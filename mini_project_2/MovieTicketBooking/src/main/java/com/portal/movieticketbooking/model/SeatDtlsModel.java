@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "seat_dtls_mstr")
-public class SeatDtlsModel {
+public class SeatDtlsModel{
 	@Id
 	@Column(name = "Id", updatable = false, nullable = false)
 	private Long id;

@@ -2,8 +2,7 @@
 var myApp = angular.module('myApp',[]);
 myApp.controller('Booking',Booking);
 
-function Booking($scope,$http)
-{
+function Booking($scope,$http){
 	$scope.lismovies=[];
 	$scope.getlist=function()
 	{

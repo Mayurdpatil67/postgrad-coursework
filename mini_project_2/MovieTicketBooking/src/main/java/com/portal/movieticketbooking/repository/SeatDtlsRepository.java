@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import com.portal.movieticketbooking.model.SeatDtlsModel;
 
 @Repository
-public interface SeatDtlsRepository extends JpaRepository<SeatDtlsModel,Long>{
+public interface SeatDtlsRepository extends JpaRepository<SeatDtlsModel,Long> {
 	
 	@Query(value = "select * from seat_dtls_mstr where Moviedescid=?1", nativeQuery = true) 
 	List<SeatDtlsModel> fetchseatdtls(Long movieid);

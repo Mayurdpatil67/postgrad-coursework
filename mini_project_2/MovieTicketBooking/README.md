@@ -8,10 +8,8 @@ The Software system is an online movie ticket booking system where customers can
 * SpringBoot
 * Java
 * AngularJS
-* Git
 * HTML
 * CSS
-* Bootstrap
 
 ## Features
 * All active movies are available for booking.

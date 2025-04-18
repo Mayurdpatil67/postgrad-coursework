@@ -1,6 +1,6 @@
 package com.portal.movieticketbooking.pojo;
 
-public class Theatreinfopojo {
+public class Theatreinfopojo{
 	public MovieInfoPojo reqpojo;
 	public String thname;
 	public MovieInfoPojo getMoviep() {

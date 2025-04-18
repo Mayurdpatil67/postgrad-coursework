@@ -22,7 +22,7 @@ import com.portal.movieticketbooking.repository.SeatDtlsRepository;
 
 @Configuration
 @EnableScheduling
-public class SchedulerSrvc {
+public class SchedulerSrvc{
 	@Autowired
 	MovieDescRepository movierepo;
 	

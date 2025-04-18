@@ -14,7 +14,7 @@ import com.portal.movieticketbooking.pojo.Theatreinfopojo;
 import com.portal.movieticketbooking.service.TicketBookingSrvc;
 
 @RestController
-public class TicketBookingController {
+public class TicketBookingController{
 	
 	@Autowired
 	TicketBookingSrvc srvc;

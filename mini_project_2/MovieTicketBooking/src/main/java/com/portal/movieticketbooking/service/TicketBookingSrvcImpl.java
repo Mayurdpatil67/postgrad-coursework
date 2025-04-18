@@ -11,7 +11,7 @@ import com.portal.movieticketbooking.repository.MovieDescRepository;
 import com.portal.movieticketbooking.repository.SeatDtlsRepository;
 
 @Service
-public class TicketBookingSrvcImpl implements TicketBookingSrvc{
+public class TicketBookingSrvcImpl implements TicketBookingSrvc {
 
 	@Autowired
 	MovieDescRepository movierepo;

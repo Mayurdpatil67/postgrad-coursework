@@ -1,4 +1,5 @@
 # ChatBot
+- A simple chatbot to intract with user
 
 ## Installation & Setup
 
